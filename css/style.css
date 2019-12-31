@@ -1,0 +1,31 @@
+html, body {
+    background-color: black;
+    color: rgb(230, 230, 230);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: rgb(230, 230, 230);
+}
+
+#container {
+    text-align: center;
+}
+
+#header {
+    margin: 20px;
+    height: 100px;
+}
+
+#content {
+    margin: 20px;
+    height: 78vh;
+}
+
+#footer {
+    margin: 20px;
+    height: 100px;
+}
