@@ -20,7 +20,7 @@ function loop(timestamp) {
     width += Math.round(dt) * window.innerHeight/500;
     height += Math.round(dt) * window.innerHeight/500;
 
-    if(height > window.innerHeight*1.3){
+    if(width > window.innerWidth*1.5 && height > window.innerHeight*1.5){
         deleteAll();
         unfade(document.getElementById('container'));
         return;
