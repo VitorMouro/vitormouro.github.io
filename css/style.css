@@ -1,32 +1,22 @@
 html, body {
     background-color: black;
-    color: rgb(230, 230, 230);
+}
+
+#container {
+    font-family: 'Courier New', Courier, monospace;
+    color: gainsboro;
+    text-align: center;
     font-size: 2vh;
+}
+
+#content {
+    padding-top: 5vh;
 }
 
 li {
     list-style-type: none;
 }
 
-a {
-    color: rgb(230, 230, 230);
-}
-
-#container {
-    text-align: center;
-}
-
-#header {
-    margin: 20px;
-    height: 100px;
-}
-
-#content {
-    margin: 20px;
-    height: 78vh;
-}
-
-#footer {
-    margin: 20px;
-    height: 100px;
+a:link, a:visited, a:hover, a:active {
+    color: gainsboro;
 }
