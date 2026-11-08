@@ -1,0 +1,31 @@
+:root { color-scheme: light dark; }
+body {
+  margin: 0;
+  background: #fffff0;
+  color: #000;
+  font: 16px/1.45 "Times New Roman", Times, "Liberation Serif", serif;
+}
+main { max-width: 40rem; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+h1 { font-size: 2rem; margin: .5rem 0 .25rem; }
+h2 { font-size: 1.15rem; margin: 0 0 .5rem; }
+a { color: #0000ee; }
+a:visited { color: #551a8b; }
+a:active { color: #e00; }
+hr { border: 0; border-top: 2px groove #999; margin: 1.25rem 0; }
+ul { margin: 0 0 .5rem; padding-left: 1.5rem; }
+li { margin: .2rem 0; }
+code { font-family: "Courier New", Courier, "Liberation Mono", monospace; }
+address { font-style: normal; font-size: .9rem; }
+
+@media (prefers-color-scheme: dark) {
+  body { background: #000; color: #c0c0c0; }
+  a { color: #6cf; }
+  a:visited { color: #c9f; }
+  hr { border-top-color: #555; }
+}
+
+@media print {
+  body { background: #fff; color: #000; }
+  a, a:visited { color: #000; }
+  main a[href^="http"]::after { content: " <" attr(href) ">"; font-size: .8em; }
+}
